@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class RestAssuredPracticeTest {
 
     @BeforeAll
-    static void setUp(){
+    static void beforeAll(){
         // Setting BaseURI
         RestAssured.baseURI = "http://echo.jsontest.com/";
     }
